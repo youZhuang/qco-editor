@@ -89,6 +89,10 @@ namespace Editor
             if(temp.isArray())
                 ui->inspectorWidget->setGeometry(json2qrect(temp));
         }
+        else if (key == "canvasSize")
+        {
+            Ui_MainWindow *ui = MainWindow::instance()->ui;
+        }
         else
             return false;
 
