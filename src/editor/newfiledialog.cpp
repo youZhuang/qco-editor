@@ -5,6 +5,7 @@
 #include "runtime/json_helper.h"
 
 #include <QMessageBox>
+#include <QButtonGroup>
 
 NewFileDialog::NewFileDialog(QWidget *parent) :
     QDialog(parent),

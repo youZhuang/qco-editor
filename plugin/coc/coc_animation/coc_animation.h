@@ -17,6 +17,8 @@
 #include <unordered_map>
 #include <vector>
 
+#include <cocos2d.h>
+
 NS_CC_BEGIN
 class Texture2D;
 NS_CC_END
