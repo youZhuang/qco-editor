@@ -367,6 +367,7 @@ namespace Editor
 
             treeView_->setCurrentItem(items.first());
         }
+        onActionRefresh();
     }
 
     void Hierarchy::onContextMenuRequested(const QPoint &pos)
