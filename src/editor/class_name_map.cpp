@@ -9,6 +9,9 @@
 
 #include <cocos2d.h>
 
+#include "editor-support/spine/spine-cocos2dx.h"
+#include "editor-support/spine/spine.h"
+
 #include <ui/CocosGUI.h>
 
 namespace Editor
@@ -55,6 +58,9 @@ namespace Editor
         REGISTER_UI_NAME(cocos2d::ui::EditBox, "EditBox");
         REGISTER_UI_NAME(cocos2d::ui::Slider, "Slider");
         REGISTER_UI_NAME(cocos2d::ui::LoadingBar, "LoadingBar");
+
+        REGISTER_UI_NAME(spine::SkeletonRenderer, "SkeletonRenderer");
+        REGISTER_UI_NAME(spine::SkeletonAnimation, "SkeletonAnimation");
 
 #undef REGISTER_UI_NAME
     }

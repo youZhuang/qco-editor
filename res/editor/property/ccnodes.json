@@ -184,5 +184,30 @@
 			"plist" : ["PList", "粒子文件"],
 			"positionType" : ["ParticlePositionType", "坐标类型"]
 		}
+	},
+	{
+		"name" : "SkeletonRenderer",
+		"parent" : "Node",
+		"property" : {
+			
+		}
+	},
+	{
+		"name" : "SkeletonAnimation",
+		"parent" : "SkeletonRenderer",
+		"property" : {
+			"skelFile" : ["SpineSkelFile", "骨骼文件"],
+			"spAtlas" : ["SpineAtlasFile", "图集文件"],
+			"animClip" : ["string","动画片段"],
+			"isLoop" : ["bool","循环"],
+			"animations" : {
+				"type" : "dynamicList",
+				"title" : "动画列表",
+				"attribute" : {
+					"valueType" : "string",
+					"valueDefault" : ""
+				}
+			}
+		}
 	}
 ]

@@ -27,6 +27,7 @@
 #include "layout_component_loader.h"
 #include "layout_proxy_loader.h"
 #include "particle_loader.h"
+#include "skeleton_animation_loader.h"
 
 void registerLoaders(ObjectFactory *ld)
 {
@@ -61,4 +62,6 @@ void registerLoaders(ObjectFactory *ld)
     ld->registerLoader("LayoutComponent", new LayoutComponentLoader());
     ld->registerLoader("LayoutProxy", new LayoutProxyLoader());
     ld->registerLoader("ParticleSystem", new ParticleSystemLoader());
+    ld->registerLoader("SkeletonRenderer", new SkeletonRendererLoader());
+    ld->registerLoader("SkeletonAnimation", new SkeletonAnimationLoader());
 }

@@ -5,7 +5,8 @@
 			[
 				["精灵", "Sprite"],
 				["Tile网格", "TileCollisionNode"],
-				["粒子系统", "ParticleSystem"]
+				["粒子系统", "ParticleSystem"],
+				["Spine节点", "SkeletonAnimation"]
 			]
 		],
 		["3d",
@@ -171,6 +172,14 @@
 		"ParticleSystem" : {
 			"type" : "ParticleSystem",
 			"plist": "qco/spark.plist"
+		},
+		"SkeletonAnimation" : {
+			"type" : "SkeletonAnimation",
+			"skelFile" : "qco/panda.skel",
+			"spAtlas" : "qco/panda.atlas",
+			"animClip" : "default",
+			"isLoop" : true,
+			"animations" : ["default"]
 		}
 	}
 }

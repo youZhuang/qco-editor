@@ -6,6 +6,8 @@ HEADERS +=\
 	$$PWD/runtime/helper.h \
 	$$PWD/runtime/json_helper.h \
 	$$PWD/runtime/layout_loader_mgr.h \
+    $$PWD/runtime/loaders/skeleton_animation_loader.h \
+    $$PWD/runtime/loaders/skeletonrenderer_loader.h \
 	$$PWD/runtime/math_tool.h \
 	$$PWD/runtime/object_factory.h \
 	$$PWD/runtime/object_loader.h \
@@ -59,6 +61,8 @@ SOURCES +=\
 	$$PWD/runtime/helper.cpp \
 	$$PWD/runtime/json_helper.cpp \
 	$$PWD/runtime/layout_loader_mgr.cpp \
+    $$PWD/runtime/loaders/skeleton_animation_loader.cpp \
+    $$PWD/runtime/loaders/skeletonrenderer_loader.cpp \
 	$$PWD/runtime/math_tool.cpp \
 	$$PWD/runtime/object_factory.cpp \
 	$$PWD/runtime/object_loader.cpp \

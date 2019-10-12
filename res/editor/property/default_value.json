@@ -222,6 +222,13 @@
 		"plist" : "",
 		"positionType" : 0
 	},
+	"SkeletonAnimation" : {
+		"skelFile" : "",
+		"spAtlas" : "",
+		"animClip" : "",
+		"isLoop" : true,
+		"animations" :["default"]
+	},
 	"EditorBasicSettings" : {
 		"showFPS" : true,
 		"exportPath" : ""

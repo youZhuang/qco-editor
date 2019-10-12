@@ -2,6 +2,7 @@
 #include "editor/properties/property_group.h"
 #include "property_listener_widget.h"
 #include "property_listener_tile.h"
+#include "property_listener_spine.h"
 
 namespace Editor
 {
@@ -20,6 +21,12 @@ namespace Editor
         if(group != nullptr)
         {
             group->addListener("images", new PropertyListenerTile());
+        }
+
+        group = PropertyGroupMgr::instance()->findGroup("SkeletonAnimation");
+        if (group != nullptr)
+        {
+            group->addListener("animations",new PropertyListenerSpine());
         }
     }
 

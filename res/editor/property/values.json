@@ -244,5 +244,19 @@
 		"attribute" : {
 			"fileDialogType" : 2
 		}
+	},
+	"SpineSkelFile" : {
+		"type" : "file",
+		"attribute" : {
+			"fileDialogFilter" : "Spines(*.skel)",
+			"fileRelativePath" : "$RESOURCE"
+		}
+	},
+	"SpineAtlasFile" : {
+		"type" : "file",
+		"attribute" : {
+			"fileDialogFilter" : "Atlas(*.atlas)",
+			"fileRelativePath" : "$RESOURCE"
+		}
 	}
 }

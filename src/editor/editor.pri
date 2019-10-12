@@ -9,6 +9,7 @@ HEADERS +=\
 	$$PWD/draw_node3d.h \
 	$$PWD/editor_setting.h \
 	$$PWD/event_listener.h \
+    $$PWD/extend/editor_spine.h \
 	$$PWD/framework.h \
 	$$PWD/glwidget.h \
 	$$PWD/hierarchy.h \
@@ -26,6 +27,7 @@ HEADERS +=\
 	$$PWD/plugin_interface.h \
 	$$PWD/plugin_mgr.h \
 	$$PWD/project_mgr.h \
+    $$PWD/properties/property_listener_spine.h \
 	$$PWD/qhierarchytree.h \
 	$$PWD/qresourcetable.h \
 	$$PWD/qresourcetree.h \
@@ -100,6 +102,7 @@ SOURCES +=\
 	$$PWD/document.cpp \
 	$$PWD/draw_node3d.cpp \
 	$$PWD/editor_setting.cpp \
+    $$PWD/extend/editor_spine.cpp \
 	$$PWD/framework.cpp \
 	$$PWD/glwidget.cpp \
 	$$PWD/hierarchy.cpp \
@@ -117,6 +120,7 @@ SOURCES +=\
 	$$PWD/plugin_interface.cpp \
 	$$PWD/plugin_mgr.cpp \
 	$$PWD/project_mgr.cpp \
+    $$PWD/properties/property_listener_spine.cpp \
 	$$PWD/qhierarchytree.cpp \
 	$$PWD/qresourcetable.cpp \
 	$$PWD/qresourcetree.cpp \
