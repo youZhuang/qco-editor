@@ -147,7 +147,9 @@ namespace Editor
         QVariant variant;
         json2tvalue(variant,json["canvasSize"]);
         QVariantList list = variant.toList();
-        canvasSize_ = cocos2d::Size(list[0].toFloat(),list[1].toFloat());
+        if (!list.isEmpty()) {
+            canvasSize_ = cocos2d::Size(list[0].toFloat(),list[1].toFloat());
+        }
 
         bgLayer_ = cocos2d::LayerColor::create(cocos2d::Color4B::GRAY,
                                                 canvasSize_.width,
